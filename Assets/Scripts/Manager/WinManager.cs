@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class WinManager : MonoBehaviour
 {
     [Header("Win Settings")]
-    public int winScore = 100;              // Skor untuk menang
+    public int winScore = 250;              // Skor untuk menang
     public GameObject winPanel;             // Panel UI muncul saat menang
     public float restartDelay = 5f;         // Delay sebelum restart scene
 
